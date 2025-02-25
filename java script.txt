@@ -1,0 +1,91 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('nav ul li a');
+
+    links.forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href').substring(1);
+            const targetSection = document.getElementById(targetId);
+
+            window.scrollTo({
+                top: targetSection.offsetTop,
+                behavior: 'smooth'
+            });
+        });
+    });
+});
+document.addEventListener('DOMContentLoaded', function() {
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('show');
+            }
+        });
+    }, {
+        threshold: 0.1
+    });
+
+    const logos = document.querySelectorAll('.club-logo');
+    logos.forEach(logo => {
+        logo.classList.add('hidden');
+        observer.observe(logo);
+    });
+});
+document.addEventListener('DOMContentLoaded', function() {
+    const cookieNotice = document.getElementById('cookie-notice');
+    const acceptButton = document.getElementById('accept-cookies');
+
+    // Проверяем, если пользователь уже принял cookies
+    if (!localStorage.getItem('cookiesAccepted')) {
+        cookieNotice.style.display = 'block';  // Показываем уведомление
+    }
+
+    // Обработчик кнопки "Принять"
+    acceptButton.addEventListener('click', function() {
+        localStorage.setItem('cookiesAccepted', 'true');  // Сохраняем информацию о принятии
+        cookieNotice.style.display = 'none';  // Скрываем уведомление
+    });
+});
+document.getElementById('theme-toggle').addEventListener('click', function() {
+    // Переключаем класс темной темы
+    document.body.classList.toggle('dark-theme');
+    
+    // Сохраняем выбранную тему в localStorage
+    if (document.body.classList.contains('dark-theme')) {
+        localStorage.setItem('theme', 'dark');
+    } else {
+        localStorage.setItem('theme', 'light');
+    }
+});
+
+// Применяем сохраненную тему при загрузке
+window.addEventListener('load', function() {
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme === 'dark') {
+        document.body.classList.add('dark-theme');
+    }
+});
+// JavaScript to update clocks dynamically
+function updateClock(id, timezone) {
+    const clockElement = document.getElementById(id);
+    const options = {
+        timeZone: timezone,
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit',
+        hour12: false
+    };
+    setInterval(() => {
+        const time = new Date().toLocaleTimeString('en-US', options);
+        clockElement.textContent = time;
+    }, 1000);
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    updateClock('turkey-time', 'Europe/Istanbul');
+    updateClock('azerbaijan-time', 'Asia/Baku');
+});
+document.getElementById('theme-toggle').addEventListener('click', function() {
+    document.body.classList.toggle('dark-theme');
+});
+

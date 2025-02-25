@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Футбольные Лиги и Команды</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+        body, h1, h2, h3, p, ul, li, a {
+            font-family: 'Merriweather
+', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Футбольные Лиги и Команды</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">О футболе</a></li>
+                <li><a href="#facts">Интересные факты</a></li>
+                <li><a href="#players">Знаменитые футболисты</a></li>
+                <li><a href="#champions-league">Лига чемпионов</a></li>
+                <li><a href="#teams">Команды</a></li>
+                <li><a href="#video">Видео</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>О футболе</h2>
+            <p>Футбол — командный вид спорта, в котором целью является забить мяч в ворота соперника ногами или другими частями тела (кроме рук) большее количество раз, чем команда соперника. В настоящее время самый популярный и массовый вид спорта в мире</p>
+        </section>
+
+        <section id="facts">
+            <h2>Интересные факты</h2>
+            <ul>
+                <li>Самая популярная игра в мире с миллиардами поклонников.</li>
+                <li>Первый официальный матч был сыгран в 1863 году в Англии.</li>
+                <li>ФИФА (FIFA) — международная организация, управляющая футболом.</li>
+               <li>Футбольный мяч должен быть сферической формы, используемый для игры в футбол</li>
+            </ul>
+        </section>
+
+        <section id="players">
+            <h2>Знаменитые футболисты</h2>
+            <ul>
+               <li>Лионель Месси</li>
+               <li>Криштиану Роналду</li>
+               <li>Пеле</li>
+              <li>Мбаппе</li>
+              <li>Неймар</li>
+              <li>Яшин</li>
+            </ul>
+        </section>
+
+        <section id="champions-league">
+            <h2>Лига чемпионов</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXwVx8rpYNUVG6ye4x0inUxSrPtlQpGH6LWw&s" alt="Логотип Лиги чемпионов" class="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXwVx8rpYNUVG6ye4x0inUxSrPtlQpGH6LWw&s">
+            <p>Лига чемпионов УЕФА — ежегодный клубный футбольный турнир, проводимый Союзом европейских футбольных ассоциаций (УЕФА). Он является одним из самых престижных турниров в мировом футболе и привлекает лучшие клубы из различных европейских лиг.</p>
+            <ul>
+                <li>Первый турнир был проведен в 1955 году.</li>
+                <li>Действующий чемпион (на 2025 год) — Манчестер Сити.</li>
+                <li>Самый титулованный клуб — Реал Мадрид с 14 победами после него Барселона .</li>
+            </ul>
+        </section>
+
+        <section id="teams">
+            <h2>Реал Мадрид</h2>
+            <p>Реал Мадрид —  испанский профессиональный футбольный клуб из города Мадрид. Признан ФИФА лучшим футбольным клубом XX века. «Реал Мадрид» — один из трёх клубов, которые ни разу не покидали высший испанский дивизион, двумя другими являются «Барселона» и «Атлетик Бильбао»[2]. Является одним из самых титулованных клубов в испанском футболе. На его счету 71 национальный трофей: 36 титулов чемпиона страны (рекорд), а также 20 Кубков Короля/Генералиссимуса, 13 Суперкубков Испании, 1 Кубок испанской лиги и 1 Кубок Эвы Дуарте[3]. Является рекордсменом по количеству побед и голов в Лиге чемпионов (15 раз, единственная команда, выигрывавшая этот турнир — тогда ещё Кубок Европейских чемпионов — пять раз подряд, и единственная команда, выигрывавшая Лигу чемпионов в современном формате трижды подряд).</p>
+
+            <h2>Пари Сен-Жермен (ПСЖ)</h2>
+            <p>Пари Сен-Жермен, или ПСЖ, —  французский профессиональный футбольный клуб из Парижа. Основан в 1970 году. Самый титулованный клуб страны. «Пари Сен-Жермен» двенадцать раз становился чемпионом Франции, четырнадцать раз выигрывал Кубок Франции, девять раз Кубок французской лиги и тринадцать раз Суперкубок Франции. Клуб добивался успеха на европейской арене, выиграв Кубок обладателей кубков УЕФА в 1996 году, обыграв в финале венский «Рапид».
+
+В 1991 году клуб был куплен каналом французского телевидения — Canal+, но вследствие отделения спортивного подразделения, в 2006 году ПСЖ был куплен двумя инвестиционными фондами: Colony Capital, Butler Capital Partners и американским банком — Morgan Stanley. 30 июня 2009 года Colony Capital купил часть Morgan Stanley и стал акционером, владея большей частью акций. 31 мая 2011 года фонд Qatar Sports Investments выкупил 70 % акций ПСЖ.</p>
+
+            <h2>Барселона</h2>
+            <p>Барселона —  испанский профессиональный футбольный клуб из одноимённого города. Основан в 1899 году группой швейцарских, британских, испанских и каталонских футболистов во главе с Жоаном Гампером. Клуб стал одним из символов Каталонии, отсюда происходит и девиз — Més que un club — «Больше чем клуб». Поклонники ФК «Барселона» также известны как «culés» (кулес)[7][8].
+
+«Барселона» — самый титулованный клуб в Испании по общему количеству официальных трофеев — 78, включая 27 — титулов чемпиона Испании, 31 — Кубок Испании, 15 — Суперкубков Испании, 2 — Кубка испанской лиги и 3 — Кубка Эвы Дуарте. В международном клубном футболе «Барселона» завоевала 20 европейских и мировых титулов: 5 титулов Лиги чемпионов УЕФА, 4 рекордных Кубка обладателей кубков УЕФА, 3 Кубка ярмарок, 5 Суперкубков УЕФА и 3 клубных чемпионата мира[9]. Представители «Барселоны» вместе с представителями мадридского «Реала» и баскского «Атлетика» стояли у истоков образования чемпионата Испании по футболу.</p>
+        </section>
+
+        <section id="video">
+            <h2>Видео</h2>
+            <h3>Лига чемпионов</h3>
+            <img src="https://www.rusfootball.info/uploads/posts/2025-02/1739911325_1738323256_2922238274c2aa3b1f579b4d73f26-1.jpeg" alt="Логотип Лиги чемпионов" width="259" height="150" class="league-logo">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Dhmna62LVCc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <h3>Лига Европы- ежегодный международный турнир по футболу среди клубов, основанный в 1971 году под названием Кубок УЕФА (англ. UEFA Cup)[1]. Считается вторым по значимости турниром для футбольных клубов, входящих в УЕФА (Союз европейских футбольных ассоциаций), после Лиги чемпионов. В розыгрыше Лиги Европы принимают участие клубы, занявшие по окончании сезона национального чемпионата определённые места в турнирной таблице, в зависимости от рейтинга УЕФА, а также победители национальных кубков, если они не завоевали право участия в Лиге чемпионов по итогам национального чемпионата (с сезона-2015/16 финалист национального кубка не попадает в Лигу Европы (по линии кубка) ни при каких обстоятельствах, даже если победитель кубка завоевал право на участие в Лиге чемпионов по итогам национального чемпионата[2]).</h3>
+            <img src="https://cdn.dailysports.net/sport-news/dailysports/news/20240222/843c63d653ce250137884f1335f47549b70e177c65e4656f355e6cd3893c5e53-560-320.png" alt="Логотип Лиги Европы" width="259" height="150" class="league-logo">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/iRr7kLziAkw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <h3>Видео 3</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/9icKPVWXNfI?si=A3Tz9MlMe3Am7tyo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <h3>Видео 4</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/kGdONFDVGTM?si=g_-au32PTV6_8Y_P" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <h3>Матчи лиги чемпионов</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/GHf30QSOAUE?si=tbLBbK0LVScEGFOj" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <h3></h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/psa5Ydu71gw?si=REw8LUZIGoTh52Zl" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <h3></h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Vt1XFSqC9JI?si=HRou7MVSc-HqnHgA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <style>
+    .hidden {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+
+    .show {
+        opacity: 1;
+        transform: translateY(0);
+    }
+</style>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('show');
+                }
+            });
+        }, {
+            threshold: 0.1
+        });
+
+        const sections = document.querySelectorAll('section');
+        sections.forEach(section => {
+            section.classList.add('hidden');
+            observer.observe(section);
+        });
+    });
+</script>
+
+
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Футбольный сайт</p>
+    </footer>
+</body>
+</html>
